@@ -1,0 +1,18 @@
+A Brief Overview of the Solution:
+
+1.	Solution is designed using Cucumber BDD framework with Serenity Reporting in JAVA.
+2.	Project is a Maven and dependencies are defined in pom.xml
+3.	Tests are written using Cucumber Feature file in Gherking BDD format with the respective Step Definitions
+4.	Framework is designed in the Page Object Model 
+5.	Comments have been added to the code for easy understanding
+6.	Test runs on Chrome Browser and driver version is 88
+7.	This framework can also run in parallel threads by increasing the Test Runner
+To Run the tests:
+
+Repository URL - https://github.com/mbragadeesh/pwc-test.git
+1.	Clone the Repository to your local Folder.
+2.	Using Command Prompt, navigate to the pwc-test folder where POM.xml is located
+3.	Run mvn clean – to clean result target directory, followed by mvn install (Maven should be configured already in the system and added to environment variables)
+4.	Above Step 3, will take 5 - 7 mins, to download the dependencies defined in POM.xml and then test will run. This happens only for the first initial time
+5.	Serenity BDD HTML report will be generated after the test execution with the screenshots and can be in pwc-test/target/site/index.html
+6.	Open the index.html in Google Chrome, to see the BDD Cucumber Reporting
